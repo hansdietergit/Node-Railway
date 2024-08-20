@@ -1,6 +1,6 @@
 
 export const POOL = {
-    port: process.env.PORT || '',
+    port: process.env.DB_PORT || '',
     host: process.env.DB_HOST || '',
     dbname: process.env.DB_NAME || '',
     user: process.env.DB_USER || '',
